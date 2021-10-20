@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "456270361403",
+    "project_id": "calculotarifa",
+    "storage_bucket": "calculotarifa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456270361403:android:ca41ee1089dbf63e3f3d1e",
+        "android_client_info": {
+          "package_name": "com.example.calculotarifa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456270361403-4qb6vlkco2lu7ser1q8i6fr1a1givpss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQu1gMM5Qeix1yq4yp5atyp7_G17OifEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456270361403-4qb6vlkco2lu7ser1q8i6fr1a1givpss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

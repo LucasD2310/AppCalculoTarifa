@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculo Tarifa</string>
+    <string name="textEmail">Email</string>
+    <string name="texTPass">Contraseña</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="textMensaje">ESTAS EN LA PANTALLA DE PERFIL</string>
+    <string name="editName">Nombre</string>
+    <string name="bntLogout">Cerrar Sesion</string>
+    <string name="bntLogin">Iniciar Sesion</string>
+    <string name="bntSendToLogin">Ya tengo cuenta</string>
+    <string name="btnShowPrice">Mostrar Precio Despacho</string>
+    <string name="title_activity_maps" translatable="false">MapsActivity</string>
+    <string name="textPrice">Valor de tu Compra</string>
+    <string name="textPriceInfo">Valor</string>
+    <string name="textDistance">Distancia</string>
+    <string name="textDistanceInfo">Distancia</string>
+    <string name="textDelivery">Valor Despacho</string>
+    <string name="textDeliveryInfo">Despacho</string>
+    <string name="textTitle">DETALLES DE TU COMPRA</string>
+</resources>

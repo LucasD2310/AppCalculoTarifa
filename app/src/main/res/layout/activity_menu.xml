@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:text="@string/textTitle"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="543dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/textPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginBottom="60dp"
+                        android:layout_weight="1"
+                        android:text="@string/textPrice"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textPriceInfo"
+                        android:layout_width="54dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="60dp"
+                        android:layout_weight="1"
+                        android:text="@string/textPriceInfo"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/textDistance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginBottom="72dp"
+                        android:layout_weight="1"
+                        android:text="@string/textDistance"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDistanceInfo"
+                        android:layout_width="97dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="72dp"
+                        android:layout_weight="1"
+                        android:text="@string/textDistanceInfo"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/textDelivery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginBottom="168dp"
+                        android:layout_weight="1"
+                        android:text="@string/textDelivery"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDeliveryInfo"
+                        android:layout_width="104dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="168dp"
+                        android:layout_weight="1"
+                        android:text="@string/textDeliveryInfo"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bntLogout"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/bntLogout" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

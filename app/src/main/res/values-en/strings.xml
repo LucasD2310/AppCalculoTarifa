@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rate Calculation</string>
+    <string name="textEmail">Email</string>
+    <string name="texTPass">Password</string>
+    <string name="btnRegistrar">Sign Up</string>
+    <string name="textMensaje">YOU\'RE IN THE PROFILE PAGE</string>
+    <string name="editName">Name</string>
+    <string name="bntLogout">Sign Out</string>
+    <string name="bntLogin">Sign In</string>
+    <string name="bntSendToLogin">I already have an account</string>
+    <string name="btnShowPrice">Show Delivery Price</string>
+    <string name="textPrice">Price of you Purchase</string>
+    <string name="textPriceInfo">Price</string>
+    <string name="textDistance">Distance</string>
+    <string name="textDistanceInfo">Distance</string>
+    <string name="textDelivery">Dispatch Price</string>
+    <string name="textDeliveryInfo">Dispatch</string>
+    <string name="textTitle">DETAILS OF YOUR PURCHASE</string>
+</resources>
